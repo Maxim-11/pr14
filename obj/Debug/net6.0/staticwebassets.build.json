@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "UdHzSYB4i0Xh1DYAU6il6Kiw+iYklZMa4uxkDLkvb3Q=",
+  "Source": "Class",
+  "BasePath": "_content/Class",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Class\\wwwroot",
+      "Source": "Class",
+      "ContentRoot": "C:\\Users\\dmaxm\\Documents\\Учёба\\4 курс\\Dart\\Class\\Class\\wwwroot\\",
+      "BasePath": "_content/Class",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\dmaxm\\Documents\\Учёба\\4 курс\\Dart\\Class\\Class\\wwwroot\\uploads\\download.pdf",
+      "SourceId": "Class",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dmaxm\\Documents\\Учёба\\4 курс\\Dart\\Class\\Class\\wwwroot\\",
+      "BasePath": "_content/Class",
+      "RelativePath": "uploads/download.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\download.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\dmaxm\\Documents\\Учёба\\4 курс\\Dart\\Class\\Class\\wwwroot\\uploads\\ПР Калькуляция и смета затрат.pdf",
+      "SourceId": "Class",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dmaxm\\Documents\\Учёба\\4 курс\\Dart\\Class\\Class\\wwwroot\\",
+      "BasePath": "_content/Class",
+      "RelativePath": "uploads/ПР Калькуляция и смета затрат.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ПР Калькуляция и смета затрат.pdf"
+    }
+  ]
+}

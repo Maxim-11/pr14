@@ -1,0 +1,155 @@
+2024-04-04 00:53:59.5666|DEBUG|Program|Start
+2024-04-04 00:54:00.9353|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-04-04 00:54:01.0307|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-04-04 00:54:01.0805|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\dmaxm\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\dmaxm\AppData\Local\ASP.NET\DataProtection-Keys\key-3cb9effb-a934-4058-873a-2eabf9f2f315.xml'.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\dmaxm\AppData\Local\ASP.NET\DataProtection-Keys\key-5a99f698-90f8-4746-a698-14841fad2281.xml'.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\dmaxm\AppData\Local\ASP.NET\DataProtection-Keys\key-6e3dc21d-5ab0-4946-8c63-c4635f349609.xml'.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\dmaxm\AppData\Local\ASP.NET\DataProtection-Keys\key-b2a3712d-3991-4b20-8e5d-dc08b8441140.xml'.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\dmaxm\AppData\Local\ASP.NET\DataProtection-Keys\key-fa799b64-b47c-4b67-a668-cdb44f67a31c.xml'.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {3cb9effb-a934-4058-873a-2eabf9f2f315}.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {5a99f698-90f8-4746-a698-14841fad2281}.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {6e3dc21d-5ab0-4946-8c63-c4635f349609}.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {b2a3712d-3991-4b20-8e5d-dc08b8441140}.
+2024-04-04 00:54:01.0865|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {fa799b64-b47c-4b67-a668-cdb44f67a31c}.
+2024-04-04 00:54:01.1054|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {b2a3712d-3991-4b20-8e5d-dc08b8441140} with expiration date 2024-06-11 10:58:55Z as default key.
+2024-04-04 00:54:01.1054|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-04 00:54:01.1054|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-04-04 00:54:01.1054|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-04-04 00:54:01.1054|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-04-04 00:54:01.1054|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-04-04 00:54:01.1054|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {b2a3712d-3991-4b20-8e5d-dc08b8441140} as the default key.
+2024-04-04 00:54:01.1054|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {b2a3712d-3991-4b20-8e5d-dc08b8441140} was loaded during application startup.
+2024-04-04 00:54:01.2818|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://192.168.0.101:5000
+2024-04-04 00:54:01.2818|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Class
+2024-04-04 00:54:01.2818|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-04 00:54:01.2818|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-04 00:54:01.2818|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-04 00:54:01.2818|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-04-04 00:54:01.2818|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\dmaxm\Documents\Учёба\4 курс\Dart\Class\Class\
+2024-04-04 00:54:01.2818|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-04-04 00:54:01.5690|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI7" accepted.
+2024-04-04 00:54:01.5690|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI7" started.
+2024-04-04 00:54:01.5770|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K529AFGI7" received FIN.
+2024-04-04 00:54:01.5770|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K529AFGI7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 00:54:01.5770|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI7" disconnecting.
+2024-04-04 00:54:01.5887|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI7" stopped.
+2024-04-04 00:54:01.7833|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI8" accepted.
+2024-04-04 00:54:01.7833|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI8" started.
+2024-04-04 00:54:01.8319|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.0.101:5000/swagger/index.html - -
+2024-04-04 00:54:01.9181|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-04-04 00:54:01.9181|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-04 00:54:01.9641|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-04-04 00:54:01.9641|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-04-04 00:54:02.1102|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-04-04 00:54:02.3825|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-04-04 00:54:02.3852|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI8" completed keep alive response.
+2024-04-04 00:54:02.3852|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.0.101:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 559.1336ms
+2024-04-04 00:54:02.4094|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI9" accepted.
+2024-04-04 00:54:02.4094|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI9" started.
+2024-04-04 00:54:02.4094|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.0.101:5000/_vs/browserLink - -
+2024-04-04 00:54:02.4179|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.0.101:5000/_framework/aspnetcore-browser-refresh.js - -
+2024-04-04 00:54:02.4366|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI8" completed keep alive response.
+2024-04-04 00:54:02.4366|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.0.101:5000/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 19.1872ms
+2024-04-04 00:54:02.5544|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI9" completed keep alive response.
+2024-04-04 00:54:02.5544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.0.101:5000/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 143.2107ms
+2024-04-04 00:54:03.0210|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.0.101:5000/swagger/v1/swagger.json - -
+2024-04-04 00:54:03.0210|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-04 00:54:03.0210|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-04 00:54:03.0210|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-04-04 00:54:03.3293|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI9" completed keep alive response.
+2024-04-04 00:54:03.3293|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.0.101:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 308.6775ms
+2024-04-04 00:54:07.4718|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K529AFGI9" received FIN.
+2024-04-04 00:54:07.4787|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K529AFGI8" received FIN.
+2024-04-04 00:54:07.4787|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K529AFGI8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 00:54:07.4787|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K529AFGI9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 00:54:07.4787|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI8" disconnecting.
+2024-04-04 00:54:07.4787|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI9" disconnecting.
+2024-04-04 00:54:07.4973|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI8" stopped.
+2024-04-04 00:54:07.4973|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGI9" stopped.
+2024-04-04 00:54:11.9744|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGIA" accepted.
+2024-04-04 00:54:11.9744|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGIA" started.
+2024-04-04 00:54:11.9744|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://192.168.0.101:5000/api/Assignments - -
+2024-04-04 00:54:11.9744|TRACE|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|All hosts are allowed.
+2024-04-04 00:54:11.9831|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Assignments'
+2024-04-04 00:54:11.9831|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Class.Controllers.AssignmentsController.GetAssignments (Class)' with route pattern 'api/Assignments' is valid for the request path '/api/Assignments'
+2024-04-04 00:54:11.9831|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Class.Controllers.AssignmentsController.GetAssignments (Class)'
+2024-04-04 00:54:11.9831|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-04-04 00:54:11.9959|WARN|Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware|Failed to determine the https port for redirect.
+2024-04-04 00:54:12.1397|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-04-04 00:54:12.1397|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Class.Controllers.AssignmentsController.GetAssignments (Class)'
+2024-04-04 00:54:12.1718|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAssignments", controller = "Assignments"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Class.Models.Assignment]]] GetAssignments() on controller Class.Controllers.AssignmentsController (Class).
+2024-04-04 00:54:12.1718|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-04-04 00:54:12.1718|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-04-04 00:54:12.1718|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-04-04 00:54:12.1718|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-04-04 00:54:12.1718|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-04-04 00:54:12.1718|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Class.Controllers.AssignmentsController (Class)
+2024-04-04 00:54:12.5283|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-04 00:54:12.5811|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Class.Controllers.AssignmentsController (Class)
+2024-04-04 00:54:12.5811|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-04 00:54:12.5811|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-04 00:54:12.5811|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-04 00:54:12.5811|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-04 00:54:12.5917|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Class.Controllers.AssignmentsController.GetAssignments (Class) - Validation state: Valid
+2024-04-04 00:54:13.9219|INFO|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 6.0.27 initialized 'ClassContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.27' with options: None
+2024-04-04 00:54:14.0488|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<Assignment>()'
+2024-04-04 00:54:14.3352|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Assignment>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.SelectExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Assignment.AssignmentID (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Assignment.AssignmentName (string) Required MaxLength(100) Ansi, 1], [Property: Assignment.CourseID (int) Required FK Index, 2], [Property: Assignment.Deadline (DateTime) Required, 3], [Property: Assignment.Description (string) Required, 4], [Property: Assignment.MaxGrade (int) Required, 5] }
+        SELECT a.AssignmentID, a.AssignmentName, a.CourseID, a.Deadline, a.Description, a.MaxGrade
+        FROM Assignments AS a), 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Assignment>, 
+    Class.Models.ClassContext, 
+    False, 
+    False, 
+    True
+)'
+2024-04-04 00:54:14.4148|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2024-04-04 00:54:14.7541|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (337ms).
+2024-04-04 00:54:14.7703|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'Class' on server 'M\SQLEXPRESS'.
+2024-04-04 00:54:15.2456|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'Class' on server 'M\SQLEXPRESS'.
+2024-04-04 00:54:15.2605|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[AssignmentID], [a].[AssignmentName], [a].[CourseID], [a].[Deadline], [a].[Description], [a].[MaxGrade]
+FROM [Assignments] AS [a]
+2024-04-04 00:54:15.3503|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (87ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[AssignmentID], [a].[AssignmentName], [a].[CourseID], [a].[Deadline], [a].[Description], [a].[MaxGrade]
+FROM [Assignments] AS [a]
+2024-04-04 00:54:15.4445|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ClassContext' started tracking 'Assignment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-04 00:54:15.4837|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ClassContext' started tracking 'Assignment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-04 00:54:15.4837|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ClassContext' started tracking 'Assignment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-04 00:54:15.4837|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'ClassContext' started tracking 'Assignment' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-04-04 00:54:15.4966|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader was disposed.
+2024-04-04 00:54:15.4966|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'Class' on server 'M\SQLEXPRESS'.
+2024-04-04 00:54:15.5223|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'Class' on server 'M\SQLEXPRESS'.
+2024-04-04 00:54:15.5344|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Class.Controllers.AssignmentsController.GetAssignments (Class), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2934.8666ms.
+2024-04-04 00:54:15.5344|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-04 00:54:15.5344|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter.
+2024-04-04 00:54:15.5344|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: Before executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-04 00:54:15.5344|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Action Filter: After executing OnActionExecuted on filter Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter.
+2024-04-04 00:54:15.5344|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-04 00:54:15.5344|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuting on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-04 00:54:15.5344|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Before executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-04-04 00:54:15.5398|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-04-04 00:54:15.5398|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter based on Accept header 'text/plain'.
+2024-04-04 00:54:15.5398|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Could not find an output formatter based on content negotiation. Accepted types were (text/plain)
+2024-04-04 00:54:15.5398|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-04 00:54:15.5398|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-04 00:54:15.5398|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-04 00:54:15.5398|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Class.Models.Assignment, Class, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-04 00:54:15.5582|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|After executing action result Microsoft.AspNetCore.Mvc.ObjectResult.
+2024-04-04 00:54:15.5582|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: Before executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-04 00:54:15.5582|TRACE|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Result Filter: After executing OnResultExecuted on filter Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter.
+2024-04-04 00:54:15.5582|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Class.Controllers.AssignmentsController.GetAssignments (Class) in 3387.6018ms
+2024-04-04 00:54:15.5582|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Class.Controllers.AssignmentsController.GetAssignments (Class)'
+2024-04-04 00:54:15.5735|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGIA" completed keep alive response.
+2024-04-04 00:54:15.5735|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'ClassContext' disposed.
+2024-04-04 00:54:15.5735|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 GET http://192.168.0.101:5000/api/Assignments - - - 200 - application/json;+charset=utf-8 3611.6786ms
+2024-04-04 00:54:17.5435|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K529AFGIA" received FIN.
+2024-04-04 00:54:17.5435|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN2K529AFGIA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-04 00:54:17.5435|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGIA" disconnecting.
+2024-04-04 00:54:17.5435|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN2K529AFGIA" stopped.
