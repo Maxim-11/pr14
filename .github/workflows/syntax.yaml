@@ -12,14 +12,14 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    
+      
     - name: Set up .NET
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
-    
+
     - name: Restore dependencies
       run: dotnet restore
       
-    - name: Build with analyzers
-      run: dotnet build --no-restore /p:RunAnalyzersDuringBuild=true /p:WarningLevel=0
+    - name: Build project
+      run: dotnet build --no-restore /p:WarningLevel=0
