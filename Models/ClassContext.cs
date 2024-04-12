@@ -54,6 +54,8 @@ namespace Class.Models
                     .HasMaxLength(255)
                     .IsUnicode(false)
                     .IsRequired();
+                entity.HasIndex(e => e.Email)
+                    .IsUnique();
 
                 entity.Property(e => e.Password)
                     .HasMaxLength(255)

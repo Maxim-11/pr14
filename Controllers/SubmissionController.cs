@@ -263,9 +263,15 @@ namespace Class.Controllers
 
                 Console.WriteLine($"Путь файла: {fileName}");
 
-                // Если файл не в формате PDF, конвертируем его
-                if (Path.GetExtension(fileName).ToLower() != ".pdf")
+                string extension = Path.GetExtension(fileName).ToLower();
+                if (extension == ".jpg" || extension == ".jpeg" || extension == ".png" || extension == ".gif")
                 {
+                    // Показать изображение
+                    return Ok(new { fileName, filePath });
+                }
+                else if (extension != ".pdf" && extension != ".mp4" && extension != ".avi" && extension != ".mov")
+                {
+                    // Если файл не в формате PDF, конвертируем его
                     string pdfFilePath = await ConvertToPdf(filePath);
                     if (pdfFilePath == null)
                     {
@@ -290,6 +296,9 @@ namespace Class.Controllers
                 return StatusCode(500, $"Internal server error: {ex}");
             }
         }
+
+
+
 
         private async Task<string> ConvertToPdf(string filePath)
         {

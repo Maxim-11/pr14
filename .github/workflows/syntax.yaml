@@ -18,8 +18,10 @@ jobs:
       with:
         dotnet-version: 6.0.x
 
-    - name: Restore dependencies
+    - name: Install dependencies
       run: dotnet restore
       
-    - name: Build project
-      run: dotnet build --no-restore /p:WarningLevel=0
+    - name: Check code
+      run: |
+        dotnet add packeges StyleCop.Analyzers --version 1.1.118
+        dotnet build /p:StyleCopEnable=true
